@@ -48,8 +48,8 @@ let name = "Tatiana";
  let isOlder =  true;
  console.log (!isOlder);
  console.log (isOlder);
-  */
-
+  
+*/
  //Objects
  let person = {
     name: "Juan",
@@ -68,4 +68,6 @@ let name = "Tatiana";
     //console.log(key)
     console.log (person [key]);
     }
+
+    console.log('Hello world');
    
