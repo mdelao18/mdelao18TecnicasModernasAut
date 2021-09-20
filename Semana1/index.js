@@ -3,7 +3,7 @@ var name  = "Juan";
 
 //ECMA6 -  usar esto para el curso
 let name = "Juan"; // cuando el valor puede varias en el futuro
-const tax = 0.21; // se utiliza cuando se define una variable y no se necesita sobree escribir
+const tax = 0.21; // se utiliza cuando se define una variable y no se necesita sobre escribir
 
 function myfunc(){
 var name = "Juan";
@@ -70,4 +70,4 @@ let name = "Tatiana";
     }
 
     console.log('Hello world');
-   
+    console.log('Hello hello');
