@@ -147,5 +147,8 @@ for (number of numbers2){
 
 console.log(numbers2.reduce((total, number)=> total + number));
 
+//
+//
+
 
 
