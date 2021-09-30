@@ -2,13 +2,21 @@
 const letras = ['a', 'a', 'a', 'c', 'a', 'b', 'b', 'b', 'd'];
 
 function duplicateLetters (letra){
-   const dup = letra.filter((element, index, array) => array.indexOf(element) !== array.lastIndexOf(element));
-   console.log ([...dup]);
-   const totals =  [];
-      for (let index = 0; index < letras; index++){
-      const total = dup.reduce ((accum, current) => accum + current);
-      totals.push(total);
+   const dup1 = letra.filter((element, index, array) => array.indexOf(element) !== array.lastIndexOf(element));
+   let dup =[...dup1];
+   console.log(dup);
+   let totales =  [];
+   let final = [];
+   let cantidad = 0;
+      for (let index = 0; index < dup; index++){
+         if (dup[index] === dup[index]){
+            cantidad ++;
+            let letraDup= dup[index];
+            totales.push(letraDup, cantidad);
+            final.push (totales);
+         }
       }
+      console.log(final);
 }
 
 duplicateLetters(letras);
