@@ -1,0 +1,26 @@
+{
+  "name": "semana-3-1",
+  "version": "1.0.0",
+  "description": "Proyecto U Creativa Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdelao18/mdelao18TecnicasModernasAut.git"
+  },
+  "keywords": [
+    "ucreativa",
+    "cypress"
+  ],
+  "author": "Melissa De La O mdelao18@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdelao18/mdelao18TecnicasModernasAut/issues"
+  },
+  "homepage": "https://github.com/mdelao18/mdelao18TecnicasModernasAut#readme",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  }
+}
